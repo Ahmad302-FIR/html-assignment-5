@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ElectroMart – Product Price List</title>
+    <style>
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            margin: 30px auto;
+        }
+        th, td{
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        thead{
+            background-color: #f2f2f2;
+        }
+        tfoot{
+            background-color: #eaeaea;
+            font-weight: bold;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ElectroMart – Product Price List</h1>
+
+    <table>
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Samsung A14</td>
+                <td rowspan="2">Mobile</td>
+                <td>$250</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>iPhone 13</td>
+                <td>$799</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>HP Laptop 15</td>
+                <td rowspan="2">Laptop</td>
+                <td>$650</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>MacBook Pro</td>
+                <td>$1200</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Products: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
